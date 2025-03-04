@@ -1,0 +1,209 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    background-color:#ff0000;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+/* 
+Features Section */
+
+#features {
+    padding: 7% 15%;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+h3 {
+    font-family: montserrat;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+/* Apple button - Black by default, White on hover */
+.cta-button.btn-dark {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+.cta-button.btn-dark:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/* Play Store button - White by default, Black on hover */
+.cta-button.btn-light {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(253, 253, 253);
+}
+
+.cta-button.btn-light:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 200vh; /* Add scrollable height */
+    background: linear-gradient(); /* Gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    mix-blend-mode: difference; /* Inverts colors */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-family: montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading {
+    font-family: montserrat;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.cta-button {
+    margin: 2% 1%;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 1% 1%;
+}
+
+/* Media Query */
+
+@media (max-width:1028px){
+
+    .title-image {
+        transform: rotate(0);
+}
+
+#title {
+    text-align: center;
+}
+
+}
